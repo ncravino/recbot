@@ -3,6 +3,10 @@
 Uses HAR cascades for fast good-enough face detection.
 Uses [SFace](https://github.com/opencv/opencv_zoo/tree/main/models/face_recognition_sface) for face recognition via cosine similarity against model computed features of samples.
 
+Remember:
+- Face Detection: is there a face in the image?
+- Face Recognition: whose face is in the image
+
 ## Dependencies
 - Install/Compile libopencv-dev and opencv-data
 - Install cmake, make, and g++
