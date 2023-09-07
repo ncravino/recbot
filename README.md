@@ -5,7 +5,7 @@ Uses [SFace](https://github.com/opencv/opencv_zoo/tree/main/models/face_recognit
 
 Remember:
 - Face Detection: is there a face in the image?
-- Face Recognition: whose face is in the image
+- Face Recognition: whose face is in the image?
 
 ## Dependencies
 - Install/Compile libopencv-dev and opencv-data
@@ -17,7 +17,7 @@ Will use `-march=native` in order to enable SSE, AVX, et al. where possible.
 - `make prepare` will prepare cmake directories and download model and it's LICENSE.
 - `make build` will build everything
 - `make sample` will run the sampler to capture 10 samples of a face using the computer camera and crop it to the bounding box found by the face detector.
-- `make recon` will run the recognizer and output "PASS" or "FAIL", with exist codes 0 or -1 respectively.
+- `make recon` will run the recognizer and output "PASS" or "FAIL", with exit codes 0 or -1 respectively.
 
 Binaries can be found on `_build/`.
 
